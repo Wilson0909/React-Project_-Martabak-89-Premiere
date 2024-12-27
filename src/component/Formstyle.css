@@ -1,0 +1,42 @@
+label{
+    color: #fff;
+}
+
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.contact-label{
+    color: black;
+}
+
+.contant-input{
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.contact-button{
+    margin: 20px 0px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.contact-button:hover{
+    background-color: gold;
+    color: black;
+}
+
+.contact-h1{
+    text-align: center;
+    color: black;
+}

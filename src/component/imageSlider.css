@@ -1,0 +1,103 @@
+.carousel{
+    width: 1000px;
+    height: 600px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+
+
+.image-name{
+    height: 600px;
+    width: 1000px;
+}
+
+.imageSlider-text{
+    color: white;
+}
+
+
+.image-banner{
+    background-color: grey;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.imageSlider-img{
+    background-color: white;
+    color: black;
+    padding: 8px 0px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.imageSlider-img:hover{
+    background-color: gold;
+    color: white;
+}
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 1rem);
+  }
+  
+  .modal-content {
+    margin: auto;
+  }
+  
+
+.modal-text{
+    color: black;
+}
+
+.modal-btn{
+    background-color: transparent;
+    border: 1 solid black;
+    padding: 5px;
+    color: black;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-container:hover{
+    background-color: gold;
+    color: white;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.action-btn{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+
+.update-btn:hover{
+    background-color: gold;
+}
+
+.delete-btn:hover{
+    background-color: red;
+}
+
+.item-slider{
+    background-color: gold;
+}
